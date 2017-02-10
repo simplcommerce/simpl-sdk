@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1.0-sdk-projectjson
+FROM microsoft/dotnet:1.1.0-sdk-msbuild-rc4
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		autoconf \
