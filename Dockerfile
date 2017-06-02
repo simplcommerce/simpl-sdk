@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1.2-sdk
+FROM microsoft/dotnet:2.0.0-preview1-sdk-jessie
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		autoconf \
